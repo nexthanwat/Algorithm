@@ -10,7 +10,7 @@ public class factorial {
         scanIn.close();
 
         int fact = 1;
-        for (int i = 1; i <= n; i++){
+        for (int i = 1; i <= n; i++) {
             System.out.println(i + "! = " + fact);
             fact += fact * i;
         }
