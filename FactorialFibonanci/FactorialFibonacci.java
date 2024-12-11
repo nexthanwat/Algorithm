@@ -50,7 +50,6 @@ public class FactorialFibonacci {
                 f1 = f2;
             }
             fibResult = f0; // หลังจากลูป Fibonacci ตัวสุดท้ายจะเก็บค่า Fibonacci
-
             // แสดงผลลัพธ์การหาผลลัพธ์ Factorial ลบกับ Fibonacci
             System.out.println(num + " Factorial minus Fibonanci number " + num + " is " + (factResult - fibResult));
         }
