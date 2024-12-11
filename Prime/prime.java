@@ -25,7 +25,6 @@ public class prime {
                 System.out.print(i + " ");
             }
         }
-
         scanner.close();
     }
 }
